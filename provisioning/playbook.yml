@@ -1,0 +1,10 @@
+---
+
+- name: Install Plone and all its dependencies
+  hosts: all
+  user: vagrant
+  sudo: yes
+
+  roles:
+   - apt-update
+   - apt-upgrade
