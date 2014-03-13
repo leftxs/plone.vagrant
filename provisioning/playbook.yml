@@ -8,3 +8,4 @@
   roles:
    - apt-update
    - apt-upgrade
+   - ubuntu_packages
