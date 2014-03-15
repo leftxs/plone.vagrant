@@ -7,7 +7,7 @@
 
 - name: Run Installer
   sudo: False
-  command: ./Plone-4.3.2-UnifiedInstaller/install.sh standalone
+  command: ./Plone-4.3.2-UnifiedInstaller/install.sh --password=plone standalone
 
 - name: Deleting old files ...
   sudo: False
