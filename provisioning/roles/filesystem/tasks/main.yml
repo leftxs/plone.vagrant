@@ -4,4 +4,3 @@
 - name: Enable writeback for better performance
   command: tune2fs /dev/sda1 -O has_journal -o journal_data_writeback
 
-
