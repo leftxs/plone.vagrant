@@ -2,7 +2,7 @@ Plone.Vagrant
 =============
 
 Plone.Vargant is a kit for setting easy to use development environment for Plone in a hosted virtual machine.
-**This is not the official version** For the officail version please browse to
+**This is not the official version** For the official version please browse to
 PloneDev.Vagrant_ or check https://plone.org/.
 
 The kit uses the VirtualBox for the virtual machine and the Vagrant box setup
@@ -21,7 +21,7 @@ change it later on.::
     user: admin
     password: plone
 
-There is als a role which will tweak the filesystem of your Virtualbox to speed
+There is also a role which will tweak the file system of your Virtualbox to speed
 up the performance, per default this role is not executed, is you want to use
 it uncomment the role before the first run or if you do it later you need to
 run *vagrant provision* again.
