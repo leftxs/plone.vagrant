@@ -1,0 +1,8 @@
+Todo:
+-----
+
+- remove grub timeout to speed up booting
+
+- Adding a 2 sec delay to the interface up, to make the dhclient happy
+
+
