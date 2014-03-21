@@ -5,7 +5,7 @@ Plone.Vargant is a kit for setting up an easy to use development environment for
 **This is not the official version** For the official version please browse to
 PloneDev.Vagrant_ or check https://plone.org/.
 
-The kit uses the VirtualBox for the virtual machine and the Vagrant box setup
+The kit uses VirtualBox for the virtual machine and the Vagrant box setup
 system.
 
 Difference between Plone.Vagrant and PloneDev.Vagrant
