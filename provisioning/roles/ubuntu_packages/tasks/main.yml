@@ -23,7 +23,7 @@
     - python-support
     - git
     - vim
-
+    - libz-dev
 #- name: Download ZPS
 #  command: /usr/bin/wget -P /root http://www.apt.leftxs.org/stable/python-rt.zps_0.9.4-1_all.deb
 
