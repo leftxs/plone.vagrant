@@ -3,7 +3,7 @@ VENV=.
 NO_COLOR    = \x1b[0m
 OK_COLOR    = \x1b[32;01m
 
-.PHONY: bootstrap build 
+.PHONY: bootstrap build all 
 
 bootstrap:
 	@echo -e "${OK_COLOR}>>> Creating virtuelenv...${NO_COLOR}"
@@ -16,3 +16,4 @@ build:
 	@echo -e "${OK_COLOR}>>> Hold on we are building now!...${NO_COLOR}"
 	bash -c "source bin/activate && vagrant up"
 
+all: bootstrap build
