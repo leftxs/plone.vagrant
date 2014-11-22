@@ -5,4 +5,9 @@ Todo:
 
 - Adding a 2 sec delay to the interface up, to make the dhclient happy
 
+- cleanup image: remove install log and installer
+
+- run debian/ubuntu cleanup stuff like apt-cache clean and so on
+
+- configure extra Vagrantfile for including for depolying, make sure we have a servername and port forwards
 
