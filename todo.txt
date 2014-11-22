@@ -11,3 +11,4 @@ Todo:
 
 - configure extra Vagrantfile for including for depolying, make sure we have a servername and port forwards
 
+- add documentation
