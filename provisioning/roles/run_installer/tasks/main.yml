@@ -3,13 +3,13 @@
 
 - name: Untar Installer
   sudo: False
-  command: tar -xf Plone-4.3.3-UnifiedInstaller.tgz
+  command: tar -xf Plone-4.3.4-UnifiedInstaller.tgz
 
 - name: Run Installer
   sudo: False
-  command: ./Plone-4.3.3-UnifiedInstaller/install.sh --password=plone standalone
+  command: ./Plone-4.3.4-UnifiedInstaller/install.sh --password=plone standalone
 
 - name: Deleting old files ...
   sudo: False
-  command: rm -rf Plone-4.3.3-UnifiedInstaller.tgz
+  command: rm -rf Plone-4.3.4-UnifiedInstaller.tgz
 
