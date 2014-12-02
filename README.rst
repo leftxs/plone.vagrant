@@ -26,6 +26,17 @@ up the performance, per default this role is not executed, is you want to use
 it uncomment the role before the first run or if you do it later you need to
 run *vagrant provision* again.
 
+Starting
+--------
+
+Login to your Vagrant Box and start Plone::
+
+    vagrant ssh
+    tbc
+
+Browse to localhost:8080 and create your Plone site
+
+
 Dependencies
 ------------
 
